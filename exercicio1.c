@@ -7,13 +7,7 @@ int main(){
     gets(buf);
 
     if (admin){
-        const char* filename = "flag.txt";
-        FILE* file = fopen(filename, "r");
-        char ch;
-        while ((ch = fgetc(file)) != EOF) {
-            putchar(ch);
-    }
-    fclose(file);
+     puts("Hello admin!");
     }
 
     else{
