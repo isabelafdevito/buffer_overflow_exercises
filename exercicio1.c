@@ -1,6 +1,5 @@
 int main(){
-    setup();
-    banner();
+
     int admin = 0;
     char buf[0x10];
 
@@ -22,3 +21,4 @@ int main(){
         exit(1);
     }
 }
+
